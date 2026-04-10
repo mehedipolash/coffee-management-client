@@ -1,5 +1,5 @@
 import React from "react";
-import { useLoaderData } from "react-router";
+import { Link, useLoaderData } from "react-router";
 import Swal from "sweetalert2";
 
 const UpdateCoffee = () => {
@@ -35,6 +35,7 @@ const UpdateCoffee = () => {
   };
   return (
     <div className="p-24">
+     
       <div className="p-12 text-center space-y-4">
         <h1 className="lg:text-6xl md:text-4xl  sm:text-4xl">Update Coffee</h1>
       </div>
@@ -113,6 +114,9 @@ const UpdateCoffee = () => {
         </fieldset>
         <input type="submit" value="Update Coffee" className="btn w-full" />
       </form>
+       <Link to="/" className="btn btn-primary mt-4">
+        Back to Home
+      </Link>
     </div>
   );
 };
