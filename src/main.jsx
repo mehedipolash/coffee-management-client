@@ -11,6 +11,7 @@ import CoffeeDetails from "./components/CoffeeDetails.jsx";
 import Signin from "./authentication/Signin.jsx";
 import Signup from "./authentication/Signup.jsx";
 import AuthProvider from "./context/AuthProvider.jsx";
+import Users from "./components/Users.jsx";
 
 const router = createBrowserRouter([
   {
@@ -40,13 +41,15 @@ const router = createBrowserRouter([
         Component: UpdateCoffee,
       },
       {
-        path:'signin',
+        path: "signin",
         Component: Signin,
       },
       {
-        path:'signup',
+        path: "signup",
         Component: Signup,
-      }
+      },
+      { path: "users",
+       Component: Users },
     ],
   },
 ]);

@@ -1,5 +1,5 @@
 import React, { use, useState } from 'react';
-import { useLoaderData } from 'react-router';
+import { Link, useLoaderData } from 'react-router';
 import CoffeeCard from './CoffeeCard';
 
 const Home = () => {
@@ -15,6 +15,12 @@ const Home = () => {
                     coffees={coffees} setCoffees={setCoffees}></CoffeeCard>)
                 }
             </div>
+            <div className='text-center mt-12'>
+                <Link to="/signup" className="btn btn-primary">
+                    Signup
+                </Link>
+            </div>
+
         </div>
     );
 };
