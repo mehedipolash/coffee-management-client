@@ -1,0 +1,55 @@
+/**
+
+    ----------Frontend deploy----------------
+     
+
+* 1.go to firebase project>build>hosting>get started>enable>
+
+* 2.for your computer only one time : npm install -g firebase-tools
+
+*3. after enable and install click next
+
+*4. firebase login only once for your computer
+
+*5.For each project:
+  
+    * a. do 'firebase init hosting' in console  then click next button
+    * b. Are you ready to proceed? (Y/n): Y
+    * c. select the project you want to deploy (existing project)
+    * d.copy 'firebase deploy' in firebase then click next .
+     
+    * e.in terminal::
+     What do you want to use as your public         
+    directory? dist
+
+    * f. Configure as a single-page app (rewrite all    
+urls to /index.html)? (Y/n) y
+
+*g. Set up automatic builds and deploys with 
+GitHub? (Y/n) n
+
+h.? Would you like to install agent skills for     
+Firebase? (Y/n) n
+
+the initialization is done.
+
+--------------------------------
+ 
+ final step:
+
+
+ - for every time you want to deploy::
+  1.npm run build
+
+    2.firebase deploy
+
+
+    after that the deploy will done and an url will show for your project and you can open it in browser.
+
+
+
+    --------------------Backend deploy ---------------------
+
+
+    1.
+*/
