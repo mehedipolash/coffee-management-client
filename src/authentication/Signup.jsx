@@ -83,7 +83,8 @@ const Signup = () => {
   };
 
   return (
-    <div className="card bg-base-100 max-w-sm mx-auto shrink-0 shadow-2xl">
+    <div>
+      <div className="card bg-base-100 max-w-sm mx-auto shrink-0 shadow-2xl">
       <div className="card-body">
         <h1 className="text-5xl font-bold">Signup now!</h1>
         <form onSubmit={handleSignup} className="fieldset">
@@ -140,9 +141,13 @@ const Signup = () => {
           <button className="btn btn-neutral mt-4">Signup</button>
         </form>
       </div>
-       <button className="btn btn-lg bg-amber-400">
-        <Link to='/'>Home</Link>
-       </button>
+       
+    </div>
+    <div className="flex justify-center mt-20">
+        <button className="btn btn-lg bg-green-400">
+          <Link to="/">Home</Link>
+        </button>
+      </div>
     </div>
   );
 };
