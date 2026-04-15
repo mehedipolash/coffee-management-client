@@ -24,7 +24,7 @@ const Signin = () => {
 
         // update signIn to the database
 
-        fetch("http://localhost:3000/users", {
+        fetch("https://coffee-management-server.vercel.app/users", {
           method: "PATCH",
           headers: {
             "content-type": "application/json",

@@ -1,6 +1,6 @@
 /**
 
-    ----------Frontend deploy----------------
+    
      
 
 * 1.go to firebase project>build>hosting>get started>enable>
@@ -48,7 +48,6 @@ the initialization is done.
 
 
 
-    --------------------Backend deploy ---------------------
 
 
     1.
