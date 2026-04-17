@@ -1,5 +1,5 @@
 import React, { use, useState } from "react";
-import { useLoaderData } from "react-router";
+import { Link, useLoaderData } from "react-router";
 import Swal from "sweetalert2";
 
 const Users = () => {
@@ -112,6 +112,8 @@ const Users = () => {
           </tbody>
         </table>
       </div>
+
+      <button className="btn btn-primary bg-amber-300 "><Link to='/'>Home</Link></button>
     </div>
   );
 };

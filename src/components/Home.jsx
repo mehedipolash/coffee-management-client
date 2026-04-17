@@ -15,7 +15,7 @@ const Home = () => {
                     coffees={coffees} setCoffees={setCoffees}></CoffeeCard>)
                 }
             </div>
-            <div className='text-center mt-12  '>
+            <div className='text-center mt-12 '>
                 <div>
                     <Link  to="/signup" className="btn gap-x-5 btn-primary mr-5 bg-purple-600 border-0">
                     Signup
@@ -23,6 +23,10 @@ const Home = () => {
 
                  <Link to="/signin" className="btn border-0 btn-primary bg-green-600">
                     SignIn
+                </Link>
+
+                <Link to="/users" className="btn border-0 btn-primary bg-blue-600 ml-5">
+                    Users
                 </Link>
                 </div>
             </div>
