@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 import Swal from "sweetalert2";
 
 const AddCoffee = () => {
@@ -113,6 +114,11 @@ const AddCoffee = () => {
           </fieldset>
           <input type="submit" value="Add Coffee" className="btn w-full" />
       </form>
+      <div className="ml-96 pl-10 pt-10 ">
+        <Link to="/" className="btn border-0 btn-primary bg-slate-600 ml-5">
+          Back to Home
+        </Link>
+      </div>
     </div>
   );
 };
